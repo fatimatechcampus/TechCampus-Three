@@ -20,12 +20,49 @@
             position: relative;
             margin: auto;
         }
-        div {
+        header{
+            background-color:#672aa1;
+            height:70px;
+            width:100%;
+            position: absolute;  
+            top:0px;
+        }
+        .Main-Menu > li{
+            display: inline-block;
+            color:#fff;
+            font-family: lato, Sans-Serif;
+            list-style: none;
+            padding-left: 33px;
+            font-size: 0.9em;
+        }
+         a{
+            text-decoration: none!important;
+            color:#fff!important;
+            
+        }
+         a:hover {
+            color:#f5bb2c;
+        }
+        .logo{
+            float: right;
+            position: absolute;
+            right: 5%;
+            top: 4px;        
+            background-color: #8a2be2;
+            border-radius: 30px;
+        }
+        .TechCampus{
+            position: absolute;
+            top:20%;
+            left:50%;
+            
+        }
+        .Content {
             width: 175px;
             margin: auto;
             position: absolute;
             top: 0;
-            bottom: 0;
+/*            bottom: 0;*/
             left: 0;
             right: 0;
             height: 125px;
@@ -34,42 +71,208 @@
             line-height: 2em;
         }
         .Shahad{
-          position: relative;
-          font-family: 'Lato', sans-serif;
-font-weight: 900;
-font-size: 2.5em;
-color: #FFEA00;
-display: inline;
+            position: relative;
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            font-size: 2.5em;
+            color: #FFEA00;
+            display: inline;
         }
-
+        .div{
+            background-color: #e6e3e3;
+            height: 400px;
+            width: 100%;
+            position: absolute;
+            bottom: 0!important;
+            left:0;
+        }
+        .Labs{
+            position: absolute;
+            left: 40%;
+            top: 69%;
+        }
+        .BootCamps{
+            
+            position: absolute;
+            left: 43%;
+            top: 20%;
+        }
+        .Trainees{
+            position: absolute;
+            top: 93%;
+            color:#fff;
+            text-align: center;
+            left:20%
+            
+        }
+        .Cyber{
+            position: absolute;
+            left: 40%;
+            top: 120%;
+            
+        }
+        .PythonTeam{
+            position: absolute;
+            top: 175%;
+            margin-left: 48px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            font-size: 1.5em;
+            color: #FFEA00;
+            text-align: center;
+        }
+        th{
+            background-color:#672aa1;
+        }
+        .Names{
+            width:100%;
+        }
+        .IDS{
+            width:30%;
+        }
+        .FirstRow{
+            background-color:#f5bb2c;
+            
+        }
+        .SecondRow{
+            background-color:#76d4e8;
+            width: 153px;
+        }
+        .container{
+        background-color:#7127b6;
+        position: absolute;
+        width: 100%;
+        bottom: -116%;
+        }
+        .container a{
+            color:#fff;
+            text-decoration: none;
+            
+        }
+         .container a:hover{
+            color:#f5bb2c;
+            text-decoration: none;
+            
+        }
+        .container li{
+            list-style: none;
+        }
+        .links{
+            text-decoration: none;
+            list-style: none;
+            }
+        }
+        .footer{
+            position: absolute;
+            width: 100%;
+            bottom: -111%;
+            top: 183%;
+            overflow: hidden;
+        }
+        .allrights{
+            color:#fff;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <div>
+   <header>
+       <ul class="Main-Menu">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">BootCamps</a></li>
+           <li><a href="#">How To</a></li>
+           <li><a href="#">Contact</a></li>
+           
+       </ul>
+       <div class="logo">
+           <img src="https://techcampus.com/images/logo.png" alt="TechCampus">
+       </div>
+   </header>
+    <div class="TechCampus">
         <a href="https://techcampus.com" style="color: #fff;text-decoration:none;"><img src="https://techcampus.com/images/logo.png" alt="logo"> TechCampus</a>
     </div>
-    <div>
-        <img src="https://techcampus.com/images/techcampus_slider.png" alt="logo">
-      <img src="https://trello-attachments.s3.amazonaws.com/5c881e611d3aaf285472eefd/800x650/2802cf792e0ce8d62276aeeaa56fa0b1/cyber-new.png" alt="logo">
-     <img src="https://trello-attachments.s3.amazonaws.com/5c881e611d3aaf285472eefd/800x650/4b6a0ce6b58d43184614524ba0c76668/Networking.png" alt="logo">
+    
+    <div >
+        <img class="BootCamps" src="https://techcampus.com/images/techcampus_slider.png" alt="logo">
+<!--      <img src="https://trello-attachments.s3.amazonaws.com/5c881e611d3aaf285472eefd/800x650/2802cf792e0ce8d62276aeeaa56fa0b1/cyber-new.png" alt="logo">-->
+      
+     <img class="Labs" src="https://trello-attachments.s3.amazonaws.com/5c881e611d3aaf285472eefd/800x650/4b6a0ce6b58d43184614524ba0c76668/Networking.png" alt="logo">
+     
    </div>
+   
     <div style="width: auto; top: 150px;">
-            <img src="images/cyber-new.png" alt="cyber-new">
+            <img class="Cyber" src="images/cyber-new.png" alt="cyber-new">
+            
+<!--
     <div style="width: auto; top: 100px;">
       <img src="images/techcampus_slider.png" alt="techcampus_slider">
     </div>
-    <h1>noor</h1>
-    <p>Mahmood</p>
-    <p>Reem Q</p>
-    <h1>Omar Alamoudi </h1>
-    <h1>Faisal </h1>
-<br></br>
-<br></br>
-<br></br>
-    <div class="Shahad" >
-      <h1>This is done by shahad</h1>
+-->
+    
+    <div class="Trainees">
+    <table>
+      <tr>
+       <th>#</th>
+       <th class="Names">Name</th></tr>
+       
+        <tr>
+        <td class="FirstRow IDS"> 1</td>
+        <td class="FirstRow">noor
+        </tr> 
+        <tr>
+        <td class="SecondRow IDS"> 2</td>
+        <td class="SecondRow">Mahmood</td>
+        </tr>
+        <tr>
+        <td class="FirstRow IDS"> 3</td>
+        <td class="FirstRow">Reem Q</td>
+        </tr>
+        <tr>
+        <td class="SecondRow IDS"> 4</td>
+        <td class="SecondRow">Omar Alamoudi </td>
+        </tr>
+        <tr>
+        <td class="FirstRow IDS"> 5</td>
+        <td class="FirstRow">Faisal </td>
+        </tr>
+        <tr>
+        <td class="SecondRow IDS"> 6</td>
+        <td class="SecondRow">Ali</td>
+        </tr> 
+    
+ </table>
+    </div>
+<br><!-- Removed </br>closing Tag -->
+<br> <!-- Removed </br>closing Tag -->
+<br> <!-- Removed </br>closing Tag -->
+    <div class="Shahad">
+     
       <img src="Shahad_img.png" alt="">
     </div>
 </div>
+ <div class="PythonTeam"><h5>This is done by Python Trainees Group<img src="https://techcampus.com/images/python-small-selected.png" widh="60px" height="60px" alt="Python BootCamp"></h5>
+ </div>
+<!-- *******************************************************************************
+ | 01-No closing tag for <br> needed - Commented by Ali Al-Mashyakhi 09/04/2019.
+ | 02-Check the previous commit to compare the code, thanks all for the efforts,
+ | 03-Unfortunately, I'm a few steps behind you :( , doing my best to catch up
+ | with you.
+ ******************************************************************************* -->
+<footer>
+<div class="container">
+ <div class="row"> 
+    
+    <div class="allrights">
+    <h5>All Right Reserved TechCampus.com | Python BootCamp 2019</h5>
+
+</div>
+
+       
+    </div>  
+</div>
+
+</footer>
+
 </body>
 </html>
